@@ -25,7 +25,7 @@ if (menuButton && mobileNav) {
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closeMenu();
   });
-  window.matchMedia("(min-width: 761px)").addEventListener("change", closeMenu);
+  window.matchMedia("(min-width: 901px)").addEventListener("change", closeMenu);
 }
 
 const year = document.querySelector("#year");
